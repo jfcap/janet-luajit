@@ -1,6 +1,6 @@
 # Janet LuaJIT Bridge
 
-Experimental [Janet](https://janet-lang.org) to [LuaJit](http://luajit.org) Bridge module
+Experimental [Janet](https://janet-lang.org) to [LuaJIT](http://luajit.org) Bridge module
 
 ## Building 
 
