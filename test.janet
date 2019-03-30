@@ -52,7 +52,12 @@
 (def l-chunk ((lua :loadstring) "print('hello janet!')"))
 (l-chunk nil)
 
-# ffi
+# mutiple args and multiple returns as tuples
+
+(pp (((lua :string) :match) ["hello janet 123" "(%w+)%s+(%w+)%s+(%d+)"]))
+
+
+# ffi :-)
 
 (def lua-ffi ((lua :require) :ffi))
 ((lua-ffi :cdef) "int printf(const char *fmt, ...);")
