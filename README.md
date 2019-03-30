@@ -9,7 +9,7 @@ To build an install LuaJit-2.1 from git locally.
 ```
 > ./install-luajit-local.sh
 ```
-Alternatively edit `build.janet` to adapt the paths to your LuaJit installation. 
+Alternatively edit `build.janet` to adapt the paths to your LuaJIT installation. 
 
 
 
