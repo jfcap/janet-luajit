@@ -5,7 +5,8 @@
 (def lua (lua/new))
 (def lua2 (lua/new))
 (pp [lua lua2])
-# get / set global lua object)
+
+# get / set global lua object
 
 (def l-math (lua :math))
 (pp l-math)
