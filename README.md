@@ -1,18 +1,20 @@
 # Janet LuaJIT Bridge
 
-Experimental [Janet](https://janet-lang.org) to [LuaJit](http://luajit.org) Bridge module.
+
+Experimental [Janet](https://janet-lang.org) to [LuaJIT](http://luajit.org) Bridge module.
 
 This module is a minimal Janet bindings to LuaJIT.
 
+
 ## Building 
 
-To build an install LuaJit-2.1 from git locally.
+To build an install LuaJit-2.1 from git locally (linux only).
 
 ```
 > ./install-luajit-local.sh
 ```
-Alternatively edit `configure.janet` to adapt the paths to your LuaJIT installation. 
 
+Alternatively edit `configure.janet` to adapt the paths to your LuaJIT installation. 
 
 To build the Janet native module
 
