@@ -1,4 +1,4 @@
-(import build/lua :prefix "")
+(import build/lua :as "lua")
 
 # create a new lua states
 

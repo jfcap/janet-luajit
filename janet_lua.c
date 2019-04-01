@@ -379,12 +379,12 @@ static Janet jl_vm_call(int32_t argc, Janet *argv) {
 
 static const JanetReg cfuns[] = {
     {
-        "lua/new", jl_vm_new,
+        "new", jl_vm_new,
         "(lua/new)\n\n"
         "Create new lua vm"
     },
     {
-        "lua/call", jl_vm_call,
+        "call", jl_vm_call,
         "(lua/call lua-callee args)\n\n"
         "Call lua-callee object"
     },
