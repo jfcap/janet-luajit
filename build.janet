@@ -1,12 +1,12 @@
 (import cook)
 
+(eval-string (slurp "configure.janet"))
+
 (cook/make-native
  :name "lua"
- :cflags (string cook/CFLAGS " -I./include/luajit-2.1 ")
- :lflags " -L./lib -lluajit-5.1"
+ :cflags (string/format " %s -I%s" cook/CFLAGS LUAJIT_INC)
+ :lflags (string/format " -L%s -l%s" LUAJIT_LIB LUAJIT_LIBNAME)
  :source @["janet_lua.c"])
-
-
 
 
 (print "\nrun some tests")
